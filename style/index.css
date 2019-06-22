@@ -4,6 +4,11 @@ html {
 }
 
 .container-header {
+  width: 100%;
+  position: fixed;
+  box-sizing: border-box;
+  top: 0;
+  z-index: 999;
   color: #000;
   background-color: #fff;
   padding: 16px;
@@ -25,6 +30,7 @@ html {
 }
 
 .container-wrapper-photo {
+  margin-top: 81px;
   max-width: 1600px;
   display: flex;
   flex-direction: row;
@@ -72,7 +78,12 @@ html {
 .container-about {
   color: #f1f1f1;
   background: #616161;
+  display: flex;
+  justify-content: center;
   padding: 32px 16px;
+}
+.container-about__content {
+  max-width: 600px;
 }
 .container-about__title {
   font-size: 20px;
@@ -88,10 +99,8 @@ html {
   justify-content: center;
 }
 .container-about img {
+  width: 100%;
   padding: 32px 0px;
-}
-.container-about .container-info {
-  margin: 0px 249px;
 }
 .container-about .container-info__title {
   color: #f1f1f1;
@@ -232,13 +241,21 @@ html {
   padding: 24px 16px;
   color: #000;
   background: #f1f1f1;
+  display: flex;
+  justify-content: center;
 }
-.container-about .container-info .charge-card-container .charge-card__properties__button-container__button {
+.container-about .container-info .charge-card-container .charge-card__properties__button-container button {
   font-size: 15px;
   font-family: "Raleway", sans-serif;
   color: #000;
   background: #fff;
   padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+}
+.container-about .container-info .charge-card-container .charge-card__properties__button-container button:hover {
+  background: #ccc;
+  color: #000;
 }
 
 /*# sourceMappingURL=index.css.map */
