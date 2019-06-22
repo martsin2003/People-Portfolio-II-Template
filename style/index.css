@@ -74,18 +74,55 @@ html {
   background: #616161;
   padding: 32px 16px;
 }
-.container-about span {
+.container-about__title {
   font-size: 20px;
   font-family: "Raleway", sans-serif;
-  margin: 10px 0px !important;
+  margin: 10px 0px;
   display: flex;
   justify-content: center;
+  text-align: center;
 }
 .container-about img {
   padding: 32px 0px;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.container-about .container-info {
+  margin: 0px 249px;
+}
+.container-about .container-info__title {
+  color: #f1f1f1;
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+  margin: 10px 0px;
+}
+.container-about .container-info p {
+  color: #f1f1f1;
+  font-size: 15px;
+  line-height: 1.5;
+  font-family: "Raleway", sans-serif;
+  margin: 10px 0px;
+  text-align: justify;
+}
+.container-about .container-info hr {
+  opacity: 0.6;
+  margin: 20px 0px;
+}
+.container-about .container-info__tetx-skills {
+  color: #f1f1f1;
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+  margin: 10px 0px;
+  padding: 16px 0px;
+}
+.container-about .container-info__text-title {
+  font-size: 15px;
+  font-family: "Raleway", sans-serif;
+  margin: 15px 0px;
+  letter-spacing: 4px;
+  display: flex;
+  text-align: center;
 }
 
 /*# sourceMappingURL=index.css.map */
