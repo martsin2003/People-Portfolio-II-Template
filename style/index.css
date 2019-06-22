@@ -82,11 +82,13 @@ html {
   justify-content: center;
   text-align: center;
 }
-.container-about img {
-  padding: 32px 0px;
+.container-about .wrapper-photo {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.container-about img {
+  padding: 32px 0px;
 }
 .container-about .container-info {
   margin: 0px 249px;
@@ -102,6 +104,7 @@ html {
   font-size: 15px;
   line-height: 1.5;
   font-family: "Raleway", sans-serif;
+  display: block;
   margin: 10px 0px;
   text-align: justify;
 }
@@ -113,6 +116,7 @@ html {
   color: #f1f1f1;
   font-size: 20px;
   font-family: "Raleway", sans-serif;
+  display: block;
   margin: 10px 0px;
   padding: 16px 0px;
 }
@@ -123,6 +127,61 @@ html {
   letter-spacing: 4px;
   display: flex;
   text-align: center;
+}
+.container-about .container-info .progress-bar {
+  color: #000;
+  background-color: #fff;
+}
+.container-about .container-info .progress-bar__progress-bar__first {
+  width: 92%;
+  color: #000;
+  background-color: #9e9e9e;
+  padding: 4px 8px;
+  font-size: 15px;
+  line-height: 1.5;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+}
+.container-about .container-info .progress-bar {
+  color: #000;
+  background-color: #fff;
+}
+.container-about .container-info .progress-bar__progress-bar__second {
+  width: 85%;
+  color: #000;
+  background-color: #9e9e9e;
+  padding: 4px 8px;
+  font-size: 15px;
+  line-height: 1.5;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+}
+.container-about .container-info .progress-bar {
+  color: #000;
+  background-color: #fff;
+}
+.container-about .container-info .progress-bar__progress-bar__third {
+  width: 80%;
+  color: #000;
+  background-color: #9e9e9e;
+  padding: 4px 8px;
+  font-size: 15px;
+  line-height: 1.5;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+}
+.container-about .container-info__button {
+  display: inline-block;
+  font-size: 15px;
+  font-family: "Raleway", sans-serif;
+  color: #000;
+  background-color: #f1f1f1;
+  padding: 12px 24px;
+  margin: 30px 0px;
+}
+.container-about .container-info__button:hover {
+  color: #fff;
+  background: #000;
 }
 
 /*# sourceMappingURL=index.css.map */
