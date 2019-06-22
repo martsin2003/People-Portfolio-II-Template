@@ -258,4 +258,83 @@ html {
   color: #000;
 }
 
+.container-contact {
+  color: #000;
+  background-color: #f1f1f1;
+  padding: 32px 24px;
+  line-height: 1.5;
+}
+.container-contact__contact {
+  margin: 0px 241px;
+}
+.container-contact__contact .title {
+  margin: 10px 0px;
+  display: block;
+  justify-content: center;
+  text-align: center;
+}
+.container-contact__contact .title b {
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+}
+.container-contact__contact p {
+  display: flex;
+  font-size: 15px;
+  font-family: "Raleway", sans-serif;
+  margin: 15px 0px;
+}
+.container-contact__contact .container-form {
+  display: block;
+}
+.container-contact__contact .container-form__speakers {
+  margin: 16px 0px;
+  font-family: "Raleway", sans-serif;
+  line-height: 1.5;
+}
+.container-contact__contact .container-form input {
+  width: 100%;
+  border: 1px solid #ccc;
+  padding: 13px;
+  display: block;
+}
+.container-contact__contact .button {
+  color: #fff;
+  background-color: #000;
+  margin-bottom: 16px;
+  font-size: 15px;
+  font-family: "Raleway", sans-serif;
+  margin: 0px 0px 16px;
+  padding: 8px 16px;
+  text-align: center;
+}
+.container-contact__contact .button:hover {
+  color: #000;
+  background: #ccc;
+}
+
+.container-footer {
+  color: #000;
+  background-color: #9e9e9e;
+  padding: 32px 16px;
+}
+.container-footer__footer {
+  padding: 0px 8px;
+}
+.container-footer__card {
+  padding: 0px 8px;
+  display: flex;
+}
+.container-footer__card .title {
+  font-size: 24px;
+  font-family: "Raleway", sans-serif;
+  margin: 10px 0px;
+  display: block;
+}
+.container-footer__card p {
+  font-size: 15px;
+  font-family: "Raleway", sans-serif;
+  margin: 15px 0px;
+}
+
 /*# sourceMappingURL=index.css.map */
