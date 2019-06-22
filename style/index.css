@@ -1,0 +1,91 @@
+body,
+html {
+  margin: 0;
+}
+
+.container-header {
+  color: #000;
+  background-color: #fff;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+}
+.container-header__title {
+  font-size: 24px;
+  font-family: "Raleway", sans-serif;
+  padding: 8px 16px;
+}
+.container-header__button {
+  font-size: 24px;
+  color: #000;
+  padding: 8px 16px;
+}
+.container-header__button:hover {
+  background: #ccc;
+}
+
+.container-wrapper-photo {
+  max-width: 1600px;
+  display: flex;
+  flex-direction: row;
+}
+.container-wrapper-photo__block-photo {
+  width: 25%;
+  display: flex;
+  filter: grayscale(50%);
+  flex-direction: column;
+}
+.container-wrapper-photo img {
+  width: 100%;
+  cursor: pointer;
+}
+
+.container-numbers {
+  padding: 32px 0px;
+}
+.container-numbers__block-number {
+  display: flex;
+  justify-content: center;
+}
+.container-numbers__block-number .numbers {
+  text-align: center;
+  font-size: 15px;
+  font-family: "Raleway", sans-serif;
+  padding: 8px 16px;
+}
+.container-numbers__block-number .numbers:hover {
+  color: #fff;
+  background: #000;
+}
+.container-numbers__block-number .one {
+  font-size: 15px;
+  padding: 8px 16px;
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+  background-color: #000;
+}
+.container-numbers__block-number .one:hover {
+  color: #000;
+  background: #ccc;
+}
+
+.container-about {
+  color: #f1f1f1;
+  background: #616161;
+  padding: 32px 16px;
+}
+.container-about span {
+  font-size: 20px;
+  font-family: "Raleway", sans-serif;
+  margin: 10px 0px !important;
+  display: flex;
+  justify-content: center;
+}
+.container-about img {
+  padding: 32px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=index.css.map */
